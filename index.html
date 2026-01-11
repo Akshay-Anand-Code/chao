@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/chao.PNG" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>$CHAO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="noise-overlay"></div>
+  <div class="scanline-overlay"></div>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-content">
+      <img src="/character.PNG" alt="Loading..." class="loading-image">
+      <p class="loading-text">LOADING...</p>
+      <div class="loading-bar-track">
+        <div class="loading-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#" class="logo-text">$CHAO</a>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="nav-icon">X</a>
+        <a href="#" class="nav-icon">TG</a>
+        <a href="#" class="retro-btn small">BUY $CHAO</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="glitch-wrapper">
+            <img src="/chao.PNG" alt="$CHAO" class="main-logo-title glitch">
+          </div>
+          <h2 class="sub-title">THE MEME</h2>
+
+          <div class="contract-box">
+            <span class="label">CONTRACT ADDRESS</span>
+            <div class="address-row">
+              <code id="contract">So11111111111111111111111111111111111111112</code>
+              <button id="copy-btn" class="copy-btn">COPY</button>
+            </div>
+          </div>
+
+          <div class="action-buttons">
+            <a href="#" class="retro-btn large">BUY $CHAO</a>
+            <a href="#" class="retro-btn large outline">JOIN COMMUNITY</a>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <img src="/character.PNG" alt="Chao" class="sonic-img floating">
+        </div>
+      </div>
+    </section>
+
+    <!-- The Legend Section -->
+    <section class="legend">
+      <div class="container grid-2">
+        <div class="retro-card">
+          <div class="card-header">
+            <h3>IN MEMORY</h3>
+          </div>
+          <div class="card-body">
+            <p>The spirit of adventure lives on. Chao have arrived on Solana to bring balance and cuteness to the
+              ecosystem.</p>
+          </div>
+        </div>
+
+        <div class="retro-card">
+          <div class="card-header">
+            <h3>THE MISSION</h3>
+          </div>
+          <div class="card-body">
+            <p>Chao is the most beloved creature and we have never even bonded him once. It's time to change that.</p>
+            <div class="vibe-check">
+              <span>★ JUST VIBES ★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart-section">
+      <div class="container">
+        <div class="retro-window">
+          <div class="window-bar">
+            <span>DEXSCREENER.EXE</span>
+            <div class="window-controls">
+              <span class="minimize">_</span>
+              <span class="maximize">□</span>
+              <span class="close">x</span>
+            </div>
+          </div>
+          <div class="window-content">
+            <!-- Placeholder for chart iframe -->
+            <iframe src="https://dexscreener.com/solana/So11111111111111111111111111111111111111112?embed=1&theme=dark"
+              width="100%" height="600" frameborder="0">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">READY TO VIBE?</h2>
+          <p class="cta-subtitle">Join the cutest meme on Solana</p>
+          <div class="cta-buttons">
+            <a href="#" class="retro-btn large">BUY $CHAO</a>
+            <a href="#" class="retro-btn large outline">X COMMUNITY</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <a href="#" class="footer-link">[ VIEW ON DEXSCREENER ]</a>
+      <p class="copyright">© 2024 SEGA (NOT REAL AFFILIATION) - JUST A MEME</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
